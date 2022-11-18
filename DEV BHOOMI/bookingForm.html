@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="utf-8">
+  
+  <title>DEV BHOOMI</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="icon" href="images/title-icon.jpg" type="image/jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <header class="header">
+
+    <img src="images\MDk_Dvrw_400x400.jpg">
+
+    <b>DEV BHOOMI</b>
+  </header>
+
+  <nav class="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+              <a href="index.html" >Home</a>
+              <a href="destination.html">Destinations</a>
+              <!-- <a href="index.html">Experiences</a> -->
+              <a href="javascript:void(0)"  class="dropbtn">Experiences</a>
+              <div class="dropdown-content">
+                      
+                      <a href="wildlife.html">Wildlife</a>
+                      <a href="nature.html">Nature</a>
+              </div>
+              <a href="bookingForm.html" class="active">Book Trip</a>
+             
+      </div>
+
+</nav>
+  <main class="exprins-main">
+
+
+    <img src="images/contactus.jpg" alt="img2.jpg">
+
+
+    <div class="centered" style="top:30%; color :black">
+      <h2>Plan your Trip</h2>
+    </div>
+
+    <form class="myForm">
+
+      <div class="form_row">
+        <div class="form_column">
+
+          <div class="input-group">
+
+            <input id="customer_name" placeholder="Enter your Name" >
+          </div>
+
+          <div class="input-group">
+
+            <input type="tel" id="phone_number" placeholder="Enter your number" max="13" required>
+          </div>
+          <div class="input-group">
+
+            <input type="email" id="email_address" placeholder="example@example.com" required>
+          </div>
+
+
+          <div class="input-group">
+            <input placeholder="Arrival" class="textbox-n" type="text" onfocus="(this.type='date')" id="date">
+          </div>
+
+
+          <div class="input-group">
+
+            <input placeholder="Departure" class="textbox-n" type="text" onfocus="(this.type='date')" id="date">
+          </div>
+          <div class="input-group">
+            <p>Services Required</p>
+            <input type="checkbox" name="Services" value="Hotels"> Hotels
+            <input type="checkbox" name="Services1" value="Tour"> Tour
+            <input type="checkbox" name="Services2" value="Flight"> Flight
+            <input type="checkbox" name="Services2" value="Car Rental"> Car Rental
+          </div>
+          <div class="input-group">
+              <p>Please select your age group</p>
+             
+                <input type="radio" name="age" value="30"> 0 - 30
+                <input type="radio" name="age" value="60"> 31 - 60
+                <input type="radio" name="age" value="100"> 61 - 100
+             
+            </div>
+         
+        </div>
+        <div class="form_column">
+           
+          <div class="input-group">
+
+            <input list="country" placeholder="Select country" required>
+            <datalist id="country">
+              <option value="USA">
+              <option value="Canada">
+              <option value="Africa">
+              <option value="France">
+              <option value="China">
+            </datalist>
+          </div>
+          <div class="input-group">
+            <input type="tel" name="telephone" placeholder="contact number"><br>
+          </div>
+          <div class="input-group">
+
+            <input type="number" name="adult" min="1" max="30" placeholder="Adults" required>
+
+          </div>
+          <div class="input-group">
+
+            <input type="number" name="child" min="0" max="30" placeholder="Children">
+
+          </div >
+       
+          
+          <div class="input-group">
+            <textarea rows="6" cols="35" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="form_row" style="align-self:flex-end; align-self: center;">
+
+          <button id="submit">Submit Booking</button>
+
+        </div>
+        <div class="form_row" style="margin-left: -15%; margin-top: 2%;">
+            <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas"
+                                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d440023.86818943755!2d78.99179595341195!3d30.50162234665681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x39083ee08aa6b0b5%3A0xdbbdae8b9602ee02!2sKedarnath%20Temple%2C%20Kedarnath%2C%20Uttarakhand!3m2!1d30.7352308!2d79.066895!4m5!1s0x39a78c1fc736a8e5%3A0xb19c97240a0e94ef!2sBadrinath%20Temple%2C%20Badri%20to%20Mata%20Murti%20road%2C%20Badrinath%2C%20Uttarakhand%20246422!3m2!1d30.744807899999998!2d79.4912552!5e0!3m2!1sen!2sin!4v1667554167836!5m2!1sen!2sin"
+                                    frameborder="0" scrolling="no" marginheight="0"
+                                    marginwidth="0"></iframe></div>
+                    <style>
+                            .mapouter {
+                                    position: relative;
+                                    text-align: right;
+
+                            }
+
+                            .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+
+                            }
+                    </style>
+            </div>
+    </div>
+    </form>
+
+     
+
+  </main>
+  <footer class="footer">
+    <p> Handled by AITR</p>
+  </footer>
+
+</body>
+
+</html>
