@@ -123,7 +123,7 @@ h1{
   flex: 33.33%;
   padding: 10px;
 }
-/* .column img:hover{
+/*.column img:hover{
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
 } */
@@ -416,9 +416,8 @@ animation-iteration-count: infinite;
 position: relative;   
  margin-bottom: 2%;
 margin: auto;
-margin-top:1%;
-width: 600px;
-
+margin-top:-1%;
+width: 1000px;
 }
 
 .popular-block{
@@ -429,7 +428,7 @@ margin-top:1%;
 text-align: center;
 color:#09041f;
 font-size: 1vw;
-width: 95vw;
+width:99vw;
 align-items: center;
 
 }
@@ -496,7 +495,7 @@ color: #B22222;
   }
   /* ******************************** */
 
-  /* Heritage */
+  /* experience */
 
   .exprins-main img{
       width: 70%;
@@ -529,9 +528,9 @@ color: #B22222;
 border-top:2px solid darkblue"
 }
 
+  /* *************  /* ******************************** */ /* ******************************** */
 
-
-/* form css */
+/* booking form css */
 .myForm {
   font-size: 16px;
 
@@ -601,6 +600,7 @@ display: inline-block;
 .myForm input[type="text"]:invalid, input[type="email"]:invalid, input[type="password"]:invalid{
   border: dotted red;
 }
+  /* *************  /* ******************************** */ /* ******************************** */
 
 /* css for contact us form */
 
@@ -637,7 +637,7 @@ color: white;
     top:23%;
   
 }
- 
+ /*3 photos sliding */
 .visual-content video{
   width: 400px;
   margin-left:15%;
